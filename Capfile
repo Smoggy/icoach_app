@@ -1,3 +1,5 @@
+require 'capistrano/sidekiq'
+
 load 'deploy'
 # Uncomment if you are using Rails' asset pipeline
     load 'deploy/assets'
