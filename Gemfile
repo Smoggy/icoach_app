@@ -28,11 +28,12 @@ gem 'spring', group: :development
 
 gem 'pry'
 gem "capistrano-sidekiq"
+gem 'capistrano-maintenance'
 
 gem "unicorn"
 gem 'capistrano'
 gem 'rvm-capistrano'
-
+gem 'net-ssh', '2.7.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
